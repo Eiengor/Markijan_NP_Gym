@@ -13,6 +13,10 @@ namespace Markijan_NP_Gym.Models
         public float Price { get; set; }
         public Membership(int id = 0, string name = " ", float price = 0)
         {
+            if (Price < 0)
+            {
+                throw new ArgumentException("Price cannot be negative.");
+            }
             Id = id;
             Name = name;
             Price = price;

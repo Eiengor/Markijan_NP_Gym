@@ -13,7 +13,7 @@ namespace Markijan_NP_Gym.Repositories.Concreate.Txt
     public class TxtMemberRepos : TxtRepository<Member>, IMemberRep
     {
         public TxtMemberRepos() : base(
-            @"C:\OLeg\programs\csharps projects\Markijan_NP_Gym\Markijan_NP_Gym\Data\Member.txt", new MemberSerializer())
+            @"C:\OLeg\programs\csharps projects\Markijan_NP_T1\Markijan_NP_T1\Data\Member.txt", new MemberSerializer())
         { }
     }
 }

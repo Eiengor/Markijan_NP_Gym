@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logging\Logger.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Models\Member.cs" />
     <Compile Include="Models\Membership.cs" />
@@ -73,6 +74,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\Error_List.txt" />
     <Content Include="Data\Member.txt" />
     <Content Include="Data\Membership.txt" />
   </ItemGroup>

@@ -14,6 +14,10 @@ namespace Markijan_NP_Gym.Models
         public int Age { get; set; }
         public Member(int id = 0, string firstName = " ", string lastName = " ", int age = 0)
         {
+            if(Age < 0)
+            {
+                throw new ArgumentException("Age cannot be negative.");
+            }
             Id = id;
             FirstName = firstName;
             LastName = lastName;
