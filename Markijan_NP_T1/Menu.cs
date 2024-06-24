@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Markijan_NP_T1.Models;
-using Markijan_NP_T1.Repositories.Concreate;
-using Markijan_NP_T1.Repositories.Abstract;
-using Markijan_NP_T1.Repositories.Concreate.Factories;
-using Markijan_NP_T1.Services.Concreate;
-using Markijan_NP_T1.Services.Abstract;
+using Markijan_NP_Gym.Models;
+using Markijan_NP_Gym.Repositories.Concreate;
+using Markijan_NP_Gym.Repositories.Abstract;
+using Markijan_NP_Gym.Repositories.Concreate.Factories;
+using Markijan_NP_Gym.Services.Concreate;
+using Markijan_NP_Gym.Services.Abstract;
 
-namespace Markijan_NP_T1
+namespace Markijan_NP_Gym
 {
     public class Menu
     {

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Markijan_NP_T1.Models;
-using Markijan_NP_T1.Repositories;
+using Markijan_NP_Gym.Models;
+using Markijan_NP_Gym.Repositories;
 
-namespace Markijan_NP_T1
+namespace Markijan_NP_Gym
 {
     internal class Program
     {

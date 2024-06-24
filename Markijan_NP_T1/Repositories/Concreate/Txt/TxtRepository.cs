@@ -1,13 +1,13 @@
-﻿using Markijan_NP_T1.Repositories.Abstract;
+﻿using Markijan_NP_Gym.Repositories.Abstract;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Markijan_NP_T1.Repositories.Concreate.Txt.Serializers;
+using Markijan_NP_Gym.Repositories.Concreate.Txt.Serializers;
 
-namespace Markijan_NP_T1.Repositories.Concreate.Txt
+namespace Markijan_NP_Gym.Repositories.Concreate.Txt
 {
     public class TxtRepository<T> : IRepos<T>
     {

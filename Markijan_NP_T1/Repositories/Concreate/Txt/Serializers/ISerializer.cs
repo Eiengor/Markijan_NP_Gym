@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Markijan_NP_T1.Repositories.Concreate.Txt.Serializers
+namespace Markijan_NP_Gym.Repositories.Concreate.Txt.Serializers
 {
     public interface ISerializer<T>
     {

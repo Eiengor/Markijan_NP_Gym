@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Markijan_NP_T1.Models
+namespace Markijan_NP_Gym.Models
 {
     public class Member
     {

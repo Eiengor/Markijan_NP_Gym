@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Markijan_NP_T1.Repositories.Abstract
+namespace Markijan_NP_Gym.Repositories.Abstract
 {
     public interface IRepos<T>
     {

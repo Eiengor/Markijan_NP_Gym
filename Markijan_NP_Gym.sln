@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markijan_NP_T1", "Markijan_NP_T1\Markijan_NP_T1.csproj", "{D771C260-B51C-409B-9694-512515808103}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markijan_NP_Gym", "Markijan_NP_T1\Markijan_NP_Gym.csproj", "{D771C260-B51C-409B-9694-512515808103}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

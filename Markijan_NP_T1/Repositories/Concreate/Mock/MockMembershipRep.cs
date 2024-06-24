@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Markijan_NP_T1.Models;
-using Markijan_NP_T1.Repositories.Abstract;
-using Markijan_NP_T1.Repositories.Concreate.Memory;
-using Markijan_NP_T1.Repositories.Concreate.Mock;
+using Markijan_NP_Gym.Models;
+using Markijan_NP_Gym.Repositories.Abstract;
+using Markijan_NP_Gym.Repositories.Concreate.Memory;
+using Markijan_NP_Gym.Repositories.Concreate.Mock;
 
-namespace Markijan_NP_T1.Repositories.Concreate.Mock
+namespace Markijan_NP_Gym.Repositories.Concreate.Mock
 {
     public class MockMembershipRep : MemoryMembershipRep, IMembershipRep
     {
