@@ -16,21 +16,18 @@ namespace Markijan_NP_Gym.Repositories.Concreate.Mock
         {
             Add(new Member
             {
-                Id = 1,
                 FirstName = "Oleh",
                 LastName = "Haiduchok",
                 Age = 18
             });
             Add(new Member
             {
-                Id = 2,
                 FirstName = "Arnold",
                 LastName = "Shwarzneger",
                 Age = 58
             });
             Add(new Member
             {
-                Id = 3,
                 FirstName = "Silvestr",
                 LastName = "Stalone",
                 Age = 51

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Markijan_NP_T1.Logging
+namespace Markijan_NP_Gym.Logging
 {
     public class Logger
     {

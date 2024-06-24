@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markijan_NP_Gym", "Markijan_NP_T1\Markijan_NP_Gym.csproj", "{D771C260-B51C-409B-9694-512515808103}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gymForm", "gymForm\gymForm.csproj", "{9E6D0EF1-57BB-4601-BEF7-1A978FE7301C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D771C260-B51C-409B-9694-512515808103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D771C260-B51C-409B-9694-512515808103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D771C260-B51C-409B-9694-512515808103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6D0EF1-57BB-4601-BEF7-1A978FE7301C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6D0EF1-57BB-4601-BEF7-1A978FE7301C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6D0EF1-57BB-4601-BEF7-1A978FE7301C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6D0EF1-57BB-4601-BEF7-1A978FE7301C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

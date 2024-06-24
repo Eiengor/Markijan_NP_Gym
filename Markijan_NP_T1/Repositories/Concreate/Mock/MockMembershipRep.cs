@@ -16,19 +16,16 @@ namespace Markijan_NP_Gym.Repositories.Concreate.Mock
         {
             Add(new Membership
             {
-                Id = 1,
                 Name = "Silver",
                 Price = 10
             });
             Add(new Membership
             {
-                Id = 2,
                 Name = "Gold",
                 Price = 25
             });
             Add(new Membership
             {
-                Id = 2,
                 Name = "Platinum",
                 Price = 40
             });

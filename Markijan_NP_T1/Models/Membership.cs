@@ -8,16 +8,14 @@ namespace Markijan_NP_Gym.Models
 {
     public class Membership
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public float Price { get; set; }
-        public Membership(int id = 0, string name = " ", float price = 0)
+        public Membership(string name = " ", float price = 0)
         {
             if (Price < 0)
             {
                 throw new ArgumentException("Price cannot be negative.");
             }
-            Id = id;
             Name = name;
             Price = price;
         }

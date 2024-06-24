@@ -9,7 +9,7 @@ using Markijan_NP_Gym.Repositories.Abstract;
 using Markijan_NP_Gym.Repositories.Concreate.Factories;
 using Markijan_NP_Gym.Services.Concreate;
 using Markijan_NP_Gym.Services.Abstract;
-using Markijan_NP_T1.Logging;
+using Markijan_NP_Gym.Logging;
 
 namespace Markijan_NP_Gym
 {
@@ -87,7 +87,6 @@ namespace Markijan_NP_Gym
         {
             try
             {
-                int id = memberRep.GetCount() + 1;
                 string firstName;
                 string lastName;
                 int age;
@@ -99,7 +98,6 @@ namespace Markijan_NP_Gym
                 Console.Write("Age: ");
                 age = Convert.ToInt32(Console.ReadLine());
                 var member = new Member();
-                member.Id = id;
                 member.FirstName = firstName;
                 member.LastName = lastName;
                 member.Age = age;
@@ -116,7 +114,6 @@ namespace Markijan_NP_Gym
         {
             try
             {
-                int id = membershipRep.GetCount() + 1;
                 string name;
                 float price;
                 Console.WriteLine("\nAdd information about new membership: \n");
