@@ -1,0 +1,3 @@
+﻿Silver;10
+Gold;25
+Platinum;40
